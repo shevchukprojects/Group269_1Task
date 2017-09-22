@@ -3,7 +3,7 @@ public class Main {
         NaturalNumber naturalNumber = new NaturalNumber();
         naturalNumber.soutArraylist(naturalNumber.findNaturalDel(48));
         System.out.println("------------------------------");
-        naturalNumber.soutArraylist(naturalNumber.findSimpleDel(49));
+        naturalNumber.soutArraylist(naturalNumber.findSimpleDel(31));
         System.out.println("------------------------------");
         naturalNumber.soutArraylist(naturalNumber.findAllNumbersWherePowLast(999));
     }

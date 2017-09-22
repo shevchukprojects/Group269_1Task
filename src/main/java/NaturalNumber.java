@@ -15,8 +15,8 @@ public class NaturalNumber {
 
     public ArrayList<Integer> findSimpleDel(Integer number) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
-        for (int i = 1; i < number; i++) {
-            if ((number % i == 0) & (factorial(i) - 1) % i == 0) // Wilson's theorem  ((p-1)! -1)%p==0
+        for (int i = 2; i <= number; i++) {
+            if ((number % i == 0) & ((factorial(i) - 1) % i == 0)|((i*i-1)%24)==0 ) // Wilson's theorem  ((p-1)! -1)%p==0
             {
                 arrayList.add(i);
             }
