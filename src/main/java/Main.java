@@ -4,5 +4,7 @@ public class Main {
         naturalNumber.soutArraylist(naturalNumber.findNaturalDel(48));
         System.out.println("------------------------------");
         naturalNumber.soutArraylist(naturalNumber.findSimpleDel(49));
+        System.out.println("------------------------------");
+        naturalNumber.soutArraylist(naturalNumber.findAllNumbersWherePowLast(999));
     }
 }
