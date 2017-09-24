@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        NaturalNumber naturalNumber = new NaturalNumber();
-        naturalNumber.soutArraylist(naturalNumber.findNaturalDel(48));
+        NaturalNumberWorks naturalNumberWorks = new NaturalNumberWorks();
+        naturalNumberWorks.soutArraylist(naturalNumberWorks.findNaturalDel(48));
         System.out.println("------------------------------");
-        naturalNumber.soutArraylist(naturalNumber.findSimpleDel(52611));
+        naturalNumberWorks.soutArraylist(naturalNumberWorks.findSimpleDel(52611));
         System.out.println("------------------------------");
-        naturalNumber.soutArraylist(naturalNumber.findAllNumbersWherePowLast(999));
+        naturalNumberWorks.soutArraylist(naturalNumberWorks.findAllNumbersWherePowLast(999));
     }
 }

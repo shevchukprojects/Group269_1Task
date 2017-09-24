@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class NaturalNumber {
+public class NaturalNumberWorks {
     public ArrayList<Integer> findNaturalDel(Integer number) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         for (int i = 1; i < number; i++) {
