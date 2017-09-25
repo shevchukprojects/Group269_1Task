@@ -1,3 +1,5 @@
+import Services.Scanner;
+
 import java.io.IOException;
 
 public class Input {
